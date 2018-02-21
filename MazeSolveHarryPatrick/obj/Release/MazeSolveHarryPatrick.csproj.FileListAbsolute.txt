@@ -1,0 +1,15 @@
+C:\Users\SoftwareEngineer\source\repos\MazeSolveHarryPatrick\MazeSolveHarryPatrick\bin\Release\MazeSolveHarryPatrick.exe.config
+C:\Users\SoftwareEngineer\source\repos\MazeSolveHarryPatrick\MazeSolveHarryPatrick\bin\Release\MazeSolveHarryPatrick.exe
+C:\Users\SoftwareEngineer\source\repos\MazeSolveHarryPatrick\MazeSolveHarryPatrick\bin\Release\MazeSolveHarryPatrick.pdb
+C:\Users\SoftwareEngineer\source\repos\MazeSolveHarryPatrick\MazeSolveHarryPatrick\bin\Release\ConsoleControl.dll
+C:\Users\SoftwareEngineer\source\repos\MazeSolveHarryPatrick\MazeSolveHarryPatrick\bin\Release\ConsoleControlAPI.dll
+C:\Users\SoftwareEngineer\source\repos\MazeSolveHarryPatrick\MazeSolveHarryPatrick\bin\Release\ConsoleControl.pdb
+C:\Users\SoftwareEngineer\source\repos\MazeSolveHarryPatrick\MazeSolveHarryPatrick\bin\Release\ConsoleControl.xml
+C:\Users\SoftwareEngineer\source\repos\MazeSolveHarryPatrick\MazeSolveHarryPatrick\bin\Release\ConsoleControlAPI.pdb
+C:\Users\SoftwareEngineer\source\repos\MazeSolveHarryPatrick\MazeSolveHarryPatrick\bin\Release\ConsoleControlAPI.xml
+C:\Users\SoftwareEngineer\source\repos\MazeSolveHarryPatrick\MazeSolveHarryPatrick\obj\Release\MazeSolveHarryPatrick.Form1.resources
+C:\Users\SoftwareEngineer\source\repos\MazeSolveHarryPatrick\MazeSolveHarryPatrick\obj\Release\MazeSolveHarryPatrick.Properties.Resources.resources
+C:\Users\SoftwareEngineer\source\repos\MazeSolveHarryPatrick\MazeSolveHarryPatrick\obj\Release\MazeSolveHarryPatrick.csproj.GenerateResource.Cache
+C:\Users\SoftwareEngineer\source\repos\MazeSolveHarryPatrick\MazeSolveHarryPatrick\obj\Release\MazeSolveHarryPatrick.csproj.CoreCompileInputs.cache
+C:\Users\SoftwareEngineer\source\repos\MazeSolveHarryPatrick\MazeSolveHarryPatrick\obj\Release\MazeSolveHarryPatrick.exe
+C:\Users\SoftwareEngineer\source\repos\MazeSolveHarryPatrick\MazeSolveHarryPatrick\obj\Release\MazeSolveHarryPatrick.pdb
