@@ -75,12 +75,12 @@
             this.consoleControl.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.consoleControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.consoleControl.IsInputEnabled = true;
-            this.consoleControl.Location = new System.Drawing.Point(4, 41);
+            this.consoleControl.Location = new System.Drawing.Point(4, 40);
             this.consoleControl.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.consoleControl.Name = "consoleControl";
             this.consoleControl.SendKeyboardCommandsToProcess = false;
             this.consoleControl.ShowDiagnostics = false;
-            this.consoleControl.Size = new System.Drawing.Size(474, 410);
+            this.consoleControl.Size = new System.Drawing.Size(474, 411);
             this.consoleControl.TabIndex = 1;
             // 
             // tableLayoutPanel2
@@ -96,7 +96,7 @@
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(476, 31);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(476, 30);
             this.tableLayoutPanel2.TabIndex = 3;
             // 
             // menuStrip1
@@ -131,7 +131,8 @@
             this.comboBox.FormattingEnabled = true;
             this.comboBox.Items.AddRange(new object[] {
             "Breadth First",
-            "Depth First"});
+            "Depth First",
+            "A*"});
             this.comboBox.Location = new System.Drawing.Point(379, 3);
             this.comboBox.Name = "comboBox";
             this.comboBox.Size = new System.Drawing.Size(94, 24);

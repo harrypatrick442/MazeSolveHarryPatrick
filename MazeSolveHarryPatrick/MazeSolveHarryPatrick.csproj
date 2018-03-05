@@ -57,10 +57,16 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Direction.cs" />
+    <Compile Include="GScore.cs" />
     <Compile Include="IPosition.cs" />
     <Compile Include="Maze.cs" />
     <Compile Include="BreadthFirstPosition.cs" />
     <Compile Include="IGetSurroundingPositions.cs" />
+    <Compile Include="Cost.cs" />
+    <Compile Include="FScore.cs" />
+    <Compile Include="PositionSet.cs" />
+    <Compile Include="PositionMap.cs" />
     <Compile Include="SimplePosition.cs" />
     <Compile Include="Result.cs" />
     <Compile Include="PositionHistory.cs" />

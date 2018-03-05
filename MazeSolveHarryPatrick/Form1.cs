@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using System.Threading;
+using System.Diagnostics;
+
 namespace MazeSolveHarryPatrick
 {
     public partial class Form1 : Form
@@ -21,9 +23,10 @@ namespace MazeSolveHarryPatrick
             comboBox.SelectedIndex = 0;
         }
         private void Solve() {
-            bool doBreadthFirst = comboBox.SelectedIndex <= 0;
+            int index = comboBox.SelectedIndex;
             consoleControl.ClearOutput();
             consoleControl.WriteOutput("Solving...", Color.White);
+            
             new Thread(() => {//don't freeze the GUI for very large mazes.
                 try
                 {
@@ -34,8 +37,13 @@ namespace MazeSolveHarryPatrick
                     consoleControl.WriteOutput("Failed to open the file!\n", Color.Red);
                     return;
                 }
-                _LatestResult = doBreadthFirst ? Solver.SolveBreadthFirst(_LatestMaze) : Solver.SolveDepthFirst(_LatestMaze);
+                Stopwatch sw = new Stopwatch();
+                sw.Start();
+                _LatestResult = index < 1 ? Solver.SolveBreadthFirst(_LatestMaze) :
+                (index > 1 ? Solver.SolveAStar(_LatestMaze) : Solver.SolveDepthFirst(_LatestMaze));
+                sw.Stop();
                 ShowResult(_LatestResult, _LatestMaze);
+                consoleControl.WriteOutput("Ran in time "+sw.ElapsedMilliseconds+" milliseconds.\n", Color.Blue);
             }).Start();
         }
         private void ShowResult(Result result, Maze maze) {
